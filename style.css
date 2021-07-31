@@ -56,15 +56,14 @@ body {
 }
 
  .parent{
-  background-color:rgb(46, 77, 117);
+  background-color:rgb(35, 87, 156);
  }
 
  .child{
   background: top;
   font-weight: 100;
-  background-color:rgb(87, 150, 231);
-
- }
+  background-color: #ADD8E6;
+ } 
 
   h1,h4, img#teamwork, p#intro,  #career_header{
   
@@ -121,4 +120,15 @@ strong#jae{
   margin: 0;
   font-size: 1.1em;
 }
+
+img#logo{
+  width: 1.25%;
+  height: auto;
+  margin-top: 2%;
+margin-right: 2%;
+ position:fixed;
+ bottom:5px;
+ right:0%;
+  }
+
 
