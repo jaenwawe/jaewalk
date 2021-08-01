@@ -1,13 +1,19 @@
-const grandparent = document.querySelector(".grandparent")
+const btn = document.getElementsByClassName("grandparent");
+    var backgrounds = ['red', 'royalblue', 'green', 'purple', 'yellow'];
 
-grandparent.addEventListener("click", e => {console.log("Grand Parent 1")
-window.open(th.name,'_blank');
-})
+    function ChangeBackground(){
+        backgrounds.forEach(strtChng);
+    }
 
-/*
-function openTab(th)
-{
-    window.open(th.name,'_blank');
-}
-
-*/
+    function strtChng(){
+        let i=0;
+        if(i<=backgrounds.length){
+            i++;
+            document.body.style.backgroundColor = backgrounds[i];
+            console.log(backgrounds[i]);
+        }
+        else{
+            i=0;
+        }
+    }
+            
