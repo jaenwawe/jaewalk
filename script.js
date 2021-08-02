@@ -1,19 +1,11 @@
-const btn = document.getElementsByClassName("grandparent");
-    var backgrounds = ['red', 'royalblue', 'green', 'purple', 'yellow'];
+document.addEventListener('click', function() {
+    myFunction();
+  }); 
 
-    function ChangeBackground(){
-        backgrounds.forEach(strtChng);
-    }
+function myFunction(){
 
-    function strtChng(){
-        let i=0;
-        if(i<=backgrounds.length){
-            i++;
-            document.body.style.backgroundColor = backgrounds[i];
-            console.log(backgrounds[i]);
+            document.body.style.backgroundColor = 'AliceBlue';
+            console.log(backgrounds[randomItem]);
         }
-        else{
-            i=0;
-        }
-    }
             
+    
