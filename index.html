@@ -5,7 +5,9 @@
     </head>
 
     <body>  
-      <script src="script.js"></script>
+      <script src="script.js" id="organize">
+
+      </script>
     
       <img src ="./images/teamwork.jpeg" alt= "a team holding each others wrists in circle"  id= teamwork>
   
@@ -13,24 +15,24 @@
       <h4>I would like to virtually introduce myself, Jae Nwawe</h4>
       <p id="intro"> Most people call me Jae.  For example, h, i,<strong id="jae"> J</strong>, k
       
-      <div class="grandparent" id="grandfather">
-      <p id = career_header><b>My projects and resume</b></p>
+      <div class="grandparent" id="grandfather" onclick="myFunction()">
+      <p class= "header"><b>My projects and resume</p>
      
       <button class= "child" type= "button"> <a href="./career/SW.Resume.2021.pdf"> Resume </a></button>
       
-      <button id="github-link"> 
+      <button class= "right-button"> 
         <a href="https://github.com/JaeNwawe" target="_blank" id="projects"> Projects </a>
         </button> 
       </div>
 
     
  
-        <div class = "grandmother" id="gm">
-          <p id = career_header><b>Who am I?</b></p>
+        <div  class= "grandparent" id = "grandmother" onclick="myFunction()">
+          <p class= "header"><b>Who am I?</p>
          
-          <button class= "child" id="b" type= "button"> <a href="https://photos.app.goo.gl/qjZTVWyWyJU7Mbuz8">What Matters </a></button>
-          
-          <button id="seattle"> 
+          <button class= "child" type= "button"> <a href="https://photos.app.goo.gl/qjZTVWyWyJU7Mbuz8">What Matters </a></button>
+
+          <button class= "right-button"> 
             <a href="https://www.youtube.com/watch?v=PuKm5pDssO4" target="_blank" id="projects">Seattle Tech</a>
             </button> 
             </div>

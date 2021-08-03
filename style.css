@@ -1,9 +1,7 @@
 * {
   margin: 20px;
   color: blue;
-  font-family: 'Verdana, sans-serif';
-  font-size: 14px;
- 
+  font-family: 'Verdana, sans-serif'; 
 }
 
 
@@ -15,28 +13,24 @@ a:link, a:visited{
   color: #1132a0;
 }
 
-
-
 p#side-note{
 position: absolute;
 bottom: 0;
 }
 
-
-.grandparent{  
-border: 4px solid darkblue;
-background-color: transparent;
-float: left;
-margin-bottom: 2px;
-padding: 4px;
-}
-
-.grandmother{  
+.grandparent{
   border: 4px solid darkblue;
   background-color: transparent;
-  float:right;
   margin-bottom: 2px;
-  padding: 4px;
+  width: auto;
+}
+
+div#grandfather{  
+float: left;
+}
+
+div#grandmother{  
+ float:right;
 }
 
 .parent{
@@ -49,20 +43,28 @@ font-weight: 100;
 background-color: #ADD8E6;
 } 
 
-h1,h4, img#teamwork, p#intro,  #career_header{
+h1,h4, img#teamwork, p#intro {
 
   text-align: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
+
+
+.header {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 button:hover{
   background-color:#1E90FF;
 }
 
-button#github-link{
+button#right-button{
   float: right;
 }
 
